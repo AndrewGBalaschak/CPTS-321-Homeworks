@@ -1,0 +1,21 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "documentationRules": {
+      "companyName": "FooCorp",
+      "copyrightText": "Copyright (c) {companyName}. All Rights Reserved.\r\nLicensed under the {licenseName} License. See {licenseFile} in the project root for license information.",
+      "variables": {
+        "licenseName": "GPL v3",
+        "licenseFile": "License.txt"
+      }
+      "xmlHeader": false,
+      "fileNamingConvention": "metadata"
+    },
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    },
+    "namingRules": {
+      "tupleElementNameCasing": "camelCase"
+    }
+  }
+}
